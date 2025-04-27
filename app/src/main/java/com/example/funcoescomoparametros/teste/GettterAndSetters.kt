@@ -1,10 +1,10 @@
 package com.example.funcoescomoparametros.teste
-
+//
 //----------------------------como utilizar GETTER AND SETTER-------------------------------------
-
+//
 //getter seria como pegar um valor (get a value), e o setter seria como setar um valor (set a value)
 //esses modificadores servem para acessar e modificar atributos privados de forma controlada
-
+//
 //----------------------------exemplo abaixo-------------------------------------------------
 //class Pessoa {
 //    // Declaração da classe Pessoa

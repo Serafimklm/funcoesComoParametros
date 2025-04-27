@@ -13,9 +13,11 @@ class Mensagem (val mensagem: String, val duracao: Int) {
         }
     }
 
+
         fun exibir(){
             println("M: ${this.mensagem} - D: ${this.duracao}")
         }
+
 
 }
 fun main() {
