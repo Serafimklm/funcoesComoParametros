@@ -15,7 +15,7 @@ interface Adaptador {
     * Método que recebe uma posição e retorna uma string formatada
     * representando como aquele item deve ser exibido
     */
-    fun montarLayoutParaItem(posicao: Int) : String // metodo vai receber uma posicão do tipo int e vai retornar uma string
+    fun montarLayoutParaItem(posicaLayout: Int) : String // metodo vai receber uma posicão do tipo int e vai retornar uma string
 }
 
 /*
@@ -30,7 +30,7 @@ class ComponenteListagem {
     var adaptador: Adaptador? = null // variavel adaptador, vai receber objetos do tipo Adaptador
 
     // Método principal que executa a listagem
-    fun executar(){
+    fun executar(){  // metodo que vai realizar a ação de contar
 
 
         if( adaptador != null ){
@@ -38,7 +38,7 @@ class ComponenteListagem {
             // Declara uma variável chamada 'quantidadeItens' e atribui a ela o valor retornado
             // pelo metodo 'quantidadeItens()' do objeto 'adaptador'.
             // O operador '!!' é usado para forçar que 'adaptador' não seja nulo,
-            // ou seja, assume-se que 'adaptador' não é nulo e, se for, lançará uma exceçã
+            // ou seja, assume-se que 'adaptador' não é nulo e, se for, lançará uma exceção
             val quantidadeItens = adaptador!!.quantidadeItens()
 //            'quantidadeItens()' com os parênteses é o METODO que é chamado para
 //            obter o valor. Já 'quantidadeItens' sem os parênteses é a VARIAVEL que
@@ -110,6 +110,8 @@ class MeuAdaptador(
         // - Usa template strings (${}) para interpolar valores
         // - Cada linha mostra uma propriedade diferente do paciente
         // - \n insere quebras de linha
+        // funcao montar layout para item esta usando os dados do paciente da dataclass, para montar
+        // string de retorno e mostar as informacoes do paciente
         return "$posicao)"+
                 "NOME ${paciente.nome}\n"+
                 "IDADE ${paciente.idade}\n"+

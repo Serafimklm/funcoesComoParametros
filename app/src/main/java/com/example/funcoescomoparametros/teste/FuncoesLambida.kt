@@ -1,7 +1,7 @@
 package com.example.funcoescomoparametros.teste
 
 import java.sql.SQLOutput
-
+/*
 class Botao {
 
 //    principal forma
@@ -10,12 +10,13 @@ class Botao {
     }
 
 //    PRIMEIRA FORMA DE CRIAR UMA FUNCAO
-/*    fun configClickBotao(nome: String , funcao: () -> Unit) { // quando a funcao nao tem retorno, se usa Unit, seria como um VOID ,
+*//*    fun configClickBotao(nome: String , funcao: () -> Unit) { // quando a funcao nao tem retorno, se usa Unit, seria como um VOID ,
 //        E COMO OS PARENTESES ESTAO VAZIOS ELA  NAO TEM PARAMETRO ALGUM
         funcao() //primeiro vai executar a funcao
         println("Nome: $nome")  // depoisvai executar o parametro nome
-    }*/
-}
+    }*//*
+}*/
+/*
 class Clique{
 fun executarClick(nome: String){
     println("executar clique no botao, NA FUNCAO COMUM")
@@ -37,6 +38,7 @@ fun main() {
 
 
 
+*/
 
 
 
