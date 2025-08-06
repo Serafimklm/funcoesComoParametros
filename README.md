@@ -22,7 +22,7 @@ tudo sobre adapter,
   *Padrão de projeto para conversão de interfaces*
 
 ## 🅱️ B
-*(Nenhum arquivo começa com B)*
+*()*
 
 ## 🔠 C
 - **C**lassesAninhadas.kt  
