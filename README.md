@@ -1,0 +1,12 @@
+ClassesAninhadas.kt,
+DataClass.kt,
+EncadeamentoDeMetodos.kt, 
+Funcoes.kt,
+Funcoes de escopo2.kt, 
+FuncoesLambda.kt, 
+InterfaceKotlin.kt,
+MainActivity1, 
+MetodoOrdenacao.kt,
+PairType.kt,
+EscopoFuncao.kt,
+UnionClasses.kt.
